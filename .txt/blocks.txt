@@ -1,0 +1,8 @@
+{
+    "Analisis de documentos": "TRUE",
+    "Deteccion de firmas": "FALSE",
+    "Resumen de contenidos": "TRUE",
+    "Analisis de sentimientos": "FALSE",
+    "Deteccion de fraude": "TRUE",
+    "Interpretacion de resultados": "TRUE"
+}
