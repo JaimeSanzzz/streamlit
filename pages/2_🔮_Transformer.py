@@ -3,8 +3,8 @@ from io import StringIO
 
 # Establecer el layout, importar los logos y titulo de la barra lateral
 st.set_page_config(page_title="Transformador", layout="wide")
-logo = "babel.png"
-short_logo = "babel_short.png"
+logo = "./images/babel.png"
+short_logo = "./images/babel_short.png"
 st.logo(logo, icon_image=short_logo)
 st.sidebar.markdown("BABEL Sistemas de Información ©2024")
 

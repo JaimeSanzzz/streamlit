@@ -2,8 +2,8 @@ import streamlit as st
 
 # Establecer el layout, importar los logos y titulo de la barra lateral
 st.set_page_config(page_title="Inicio", layout="wide")
-logo = "babel.png"
-short_logo = "babel_short.png"
+logo = "./images/babel.png"
+short_logo = "./images/babel_short.png"
 st.logo(logo, icon_image=short_logo)
 st.sidebar.markdown("BABEL Sistemas de Información ©2024")
 
@@ -171,7 +171,7 @@ with col1:
 
 with col3:
     # Mostar el logo de Babel en la esquina superior derecha
-    st.image('babel.png', width=200) 
+    st.image('./images/babel.png', width=200) 
 
 
 ##### DEMO #####
@@ -186,7 +186,7 @@ with col4:
         st.session_state.demo_active = False
     # Definir un container para mostrar la demo
     with st.container():
-        st.markdown(f"## {messages["demo"]}")
+        st.markdown(messages["demo"])
         # Mostrar el boton de play demo si la sesion no esta activa 
         if not st.session_state.demo_active:
             if st.button("Play demo 🎶", type='secondary'):
@@ -194,7 +194,7 @@ with col4:
                 st.session_state.demo_active = True
                 st.experimental_rerun()
             # Dejar la imagen portada de la demo de fondo
-            st.image("demo_cover.png")
+            st.image("./images/demo_cover.png")
         # Mostrar el boton de close demo si la sesion esta activa 
         else:
             if st.button("Close demo 🛑"):
@@ -202,7 +202,7 @@ with col4:
                 st.session_state.demo_active = False
                 st.experimental_rerun()
             # Dejar la imagen portada de la demo de fondo
-            st.image("demo.gif", use_column_width=True)
+            st.image("./images/demo.gif", use_column_width=True)
 
 
 ##### Q&A #####

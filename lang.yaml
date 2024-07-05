@@ -1,0 +1,36 @@
+page1:
+  Español 🚴🏻‍♂️:
+      greeting: "Hola, ¡bienvenido a mi aplicación!",
+      instruction: "Por favor, selecciona un idioma de los botones a continuación."
+    
+
+    English 🏊🏻‍♂️:
+        greeting: "Hello, welcome to my app!",
+        instruction: "Please select a language from the buttons below."
+
+
+    Français 🏄🏻‍♂️: 
+        greeting: "Bonjour, bienvenue sur mon application!",
+        instruction: "Veuillez sélectionner une langue parmi les boutons ci-dessous."
+  
+
+    Deutsch 🤸🏻‍♀️: 
+        greeting: "Hallo, wilkommen auf mein App!",
+        instruction: "Bitte wählen Sie eine Sprache auf den folgenden Tasten."
+
+page2:
+  Español 🚴🏻‍♂️:
+    goodbye: "¡Hola! Esta es la página 2 de mi aplicación."
+    destruction: "Por favor, selecciona un idioma de los botones a continuación."
+
+  English 🏊🏻‍♂️:
+    goodbye: "Hello! This is page 2 of my app."
+    destruction: "Please select a language from the buttons below."
+
+  Français 🏄🏻‍♂️:
+    goodbye: "Bonjour! Ceci est la page 2 de mon application."
+    destruction: "Veuillez sélectionner une langue parmi les boutons ci-dessous."
+
+  Deutsch 🤸🏻‍♀️:
+    goodbye: "Hallo! Dies ist Seite 2 meiner App."
+    destruction: "Bitte wählen Sie eine Sprache auf den folgenden Tasten."
